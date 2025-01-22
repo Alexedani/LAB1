@@ -1,4 +1,41 @@
 h1{
+  text-align: center;
   border-color: #d3e644;
   border-style: dashed;
+}
+header{
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center;
+}
+
+body{
+  background-color: black;
+  color: white;
+}
+
+img{
+  width: 200px;
+  height: auto;
+}
+
+#aboutDiv {
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  gap: 20px; 
+}
+button {
+  background-color: #44e6e1;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  margin: 4px 2px;
+  cursor:grab;
+  border-radius: 12px;
+  transition: background-color 1.0s ease;
+}
+
+button:hover {
+  background-color: #c0d437;
 }
